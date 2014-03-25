@@ -31,10 +31,11 @@ gem 'jquery-rails'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-gem 'capistrano',         :group => :development
-gem 'capistrano-rails',   :group => :development, require: false
-gem 'capistrano-bundler', :group => :development, require: false
-gem 'rvm-capistrano',     :group => :development, require: false
+gem 'capistrano'
+gem 'capistrano-rails',   require: false
+gem 'capistrano-bundler', require: false
+gem 'capistrano-rvm',     require: false
+gem 'rvm1-capistrano3',   require: false
 
 # To use debugger
 # gem 'debugger'
